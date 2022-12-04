@@ -1,0 +1,252 @@
+@mixin contactButton($buttonWIdth, $buttonHeight, $fontWeight, $buttonFontSize, $buttonColour, $fontColour, $hoverColour ) {
+  background: none;
+  border: none;
+  width: $buttonWIdth;
+  height: $buttonHeight;
+  background-color: $buttonColour;
+  border-radius: 4px;
+  color: $fontColour;
+  font-weight: $fontWeight;
+  font-size: $buttonFontSize;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hoverColour;
+    transition: all 0.3s ease-out;
+  }
+}
+
+// .button {
+//     @include contactButton(260px, 70px, $blackFont, $button-textDesktopSize, $buttonColour, $fontColour);
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-header {
+  height: 115px;
+  background-color: black;
+}
+
+.website-logo {
+  height: 91px;
+  width: 91px;
+  margin-top: 12px;
+  // background-color: red;
+}
+
+.main-heading {
+  color: white;
+  padding: 15px;
+  font-size: 35px;
+}
+
+.gallery-container {
+  background-color: black;
+  height: 315px;
+  background-image: url('/images/Top-to-Tail-Sri-Lanka-Bike-Ride-banner-2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.burger-menu {
+  width: 35px;
+  height: 35px;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.button1 {
+  @include contactButton(235px, 32px, 400, 12px, white, black, rgb(127, 127, 127));
+  margin-top: 12px;
+}
+
+.button3,
+.button4 {
+  @include contactButton(70px, 32px, 400, 12px, black, white, rgb(127, 127, 127));
+  margin-top: 12px;
+}
+
+.button5 {
+  @include contactButton(140px, 32px, 400, 12px, white, black, rgb(127, 127, 127));
+  margin-top: 12px;
+}
+
+.search-container {
+  margin-top: 29px;
+}
+
+.search-button {
+  @include contactButton(50px, 30px, 400, 12px, white, black, rgb(127, 127, 127));
+  margin-left: 4px;
+}
+
+.search-area {
+  font-family: Helvetica, 'FontAwesome', sans-serif;
+  border-radius: 4px;
+}
+
+.hidden-menu-section {
+  display: none !important;
+}
+
+.hidden-menu {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  display: none;
+}
+
+.hidden-wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.hidden-menu1 {
+  height: 10%;
+  background-color: black;
+}
+
+.hidden-menu2 {
+  height: 20%;
+  background-color: black;
+}
+
+.hidden-menu3 {
+  height: 40%;
+  width: 100vw;
+  text-align: center;
+  font-size: 36px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.hidden-menu4 {
+  height: 20%;
+  background-color: black;
+}
+
+.hidden-menu5 {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  background-color: black;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 100px;
+  margin-top: 50px;
+  background-color: black;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
+  margin-top: 0px;
+  background-color: black;
+}
+
+.close-image {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.hidden-menu-items {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: rgb(127, 127, 127);
+  }
+}
+
+.menu-links {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+
+  &:hover {
+    @include contactButton(auto, auto, 400, 35px, black, white, black);
+  }
+}
+
+.menu-container {
+  height: 50px;
+}
+
+.body-section {
+  padding-top: 50px;
+}
+
+.story-container {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.story-topic {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.story-image {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 16/12;
+}
+
+.story-button {
+  @include contactButton(200px, 60px, 400, 18px, black, white, rgb(127, 127, 127));
+}
+
+.even-story-div1 {
+
+  @media screen and (min-width: 992px) {
+    order: 2;
+  }
+}
+
+.even-story-div2 {
+  @media screen and (min-width: 992px) {
+    order: 1;
+  }
+}
