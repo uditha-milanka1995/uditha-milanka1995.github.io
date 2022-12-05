@@ -1,3 +1,15 @@
+jQueryBridget('flickity', Flickity, $);
+
+$('.janaki-image-grid').flickity({
+    cellAlign: 'center',
+    initialIndex: 1,
+    contain: true,
+    wrapAround: true,
+    pageDots: true,
+    prevNextButtons: true,
+    groupCells: 1,
+});
+
 function startFunction() {
     document.getElementById('header-section').style.display = "block";
     document.getElementById('hidden-menu-section').style.display = "none";
