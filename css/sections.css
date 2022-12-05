@@ -77,4 +77,10 @@
 .homestay-seemore:hover {
   background-color: rgb(127, 127, 127);
   transition: all 0.3s ease-out;
+}
+
+.register-property-form-container {
+  padding: 20px;
+  background-color: rgb(127, 127, 127);
+  border-radius: 10px;
 }/*# sourceMappingURL=sections.css.map */
