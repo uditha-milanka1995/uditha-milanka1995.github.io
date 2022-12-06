@@ -64,3 +64,8 @@ li a:hover {
     @include contactButton(200px, 60px, 400, 12px, black, white, rgb(127, 127, 127));
     margin-top: 50px;
 }
+
+.hidden-section {
+    height: 5000px;
+    display: none;
+}

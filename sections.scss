@@ -24,6 +24,14 @@
     background-repeat: no-repeat;
 }
 
+.gallery-container-register-property {
+    height: 315px;
+    background-image: url('/images/pexels-pixabay-255419.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .navigation-panel-links>a {
     text-decoration: none;
     color: black;
@@ -91,4 +99,8 @@
     padding: 20px;
     background-color: rgb(127, 127, 127);
     border-radius: 10px;
+}
+
+.register-property-submit-button {
+    @include contactButton(200px, 60px, 400, 12px, black, white, rgb(43, 42, 42));
 }

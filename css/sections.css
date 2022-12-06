@@ -6,6 +6,14 @@
   background-repeat: no-repeat;
 }
 
+.gallery-container-register-property {
+  height: 315px;
+  background-image: url("/images/pexels-pixabay-255419.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .navigation-panel-links > a {
   text-decoration: none;
   color: black;
@@ -83,4 +91,21 @@
   padding: 20px;
   background-color: rgb(127, 127, 127);
   border-radius: 10px;
+}
+
+.register-property-submit-button {
+  background: none;
+  border: none;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+.register-property-submit-button:hover {
+  background-color: rgb(43, 42, 42);
+  transition: all 0.3s ease-out;
 }/*# sourceMappingURL=sections.css.map */
