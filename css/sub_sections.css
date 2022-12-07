@@ -1,0 +1,78 @@
+.janaki-images {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+.janaki-home-header {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+ul {
+  width: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 10px;
+  color: white;
+  background-color: rgb(127, 127, 127);
+  text-decoration: none;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+li a:hover {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+.janaki-map-button {
+  background: none;
+  border: none;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.janaki-map-button:hover {
+  background-color: rgb(127, 127, 127);
+  transition: all 0.3s ease-out;
+}
+
+.janaki-book-button {
+  background: none;
+  border: none;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.janaki-book-button:hover {
+  background-color: rgb(127, 127, 127);
+  transition: all 0.3s ease-out;
+}
+
+.hidden-section {
+  height: 5000px;
+  display: none;
+}/*# sourceMappingURL=sub_sections.css.map */

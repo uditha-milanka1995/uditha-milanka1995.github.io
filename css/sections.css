@@ -1,0 +1,111 @@
+.gallery-container-homestays {
+  height: 315px;
+  background-image: url("/images/homestayss.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-container-register-property {
+  height: 315px;
+  background-image: url("/images/pexels-pixabay-255419.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation-panel-links > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.navigation-panel-links > a:hover {
+  color: rgb(127, 127, 127);
+}
+
+.fa-greater-than {
+  margin-top: 7px;
+}
+
+.image-grid {
+  aspect-ratio: 1/1;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.main-image-grid {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.homestay-image-grid1 {
+  background-image: url("/images/home1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homestay-image-grid2 {
+  background-image: url("/images/home2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homestay-image-grid3 {
+  background-image: url("/images/home3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-grid-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.image-grid-link:hover {
+  color: rgb(127, 127, 127);
+}
+
+.homestay-seemore {
+  background: none;
+  border: none;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.homestay-seemore:hover {
+  background-color: rgb(127, 127, 127);
+  transition: all 0.3s ease-out;
+}
+
+.register-property-form-container {
+  padding: 20px;
+  background-color: rgb(127, 127, 127);
+  border-radius: 10px;
+}
+
+.register-property-submit-button {
+  background: none;
+  border: none;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+}
+.register-property-submit-button:hover {
+  background-color: rgb(43, 42, 42);
+  transition: all 0.3s ease-out;
+}/*# sourceMappingURL=sections.css.map */

@@ -1,0 +1,71 @@
+@mixin contactButton($buttonWIdth, $buttonHeight, $fontWeight, $buttonFontSize, $buttonColour, $fontColour, $hoverColour ) {
+    background: none;
+    border: none;
+    width: $buttonWIdth;
+    height: $buttonHeight;
+    background-color: $buttonColour;
+    border-radius: 4px;
+    color: $fontColour;
+    font-weight: $fontWeight;
+    font-size: $buttonFontSize;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hoverColour;
+        transition: all 0.3s ease-out;
+    }
+}
+
+.janaki-images {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.janaki-home-header {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+ul {
+    width: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    // background-color: rgb(55, 103, 194);
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 10px;
+    color: white;
+    background-color: rgb(127, 127, 127);
+    text-decoration: none;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+li a:hover {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.janaki-map-button {
+    @include contactButton(200px, 60px, 400, 12px, black, white, rgb(127, 127, 127));
+    margin-top: 50px;
+}
+
+.janaki-book-button {
+    @include contactButton(200px, 60px, 400, 12px, black, white, rgb(127, 127, 127));
+    margin-top: 50px;
+}
+
+.hidden-section {
+    height: 5000px;
+    display: none;
+}
